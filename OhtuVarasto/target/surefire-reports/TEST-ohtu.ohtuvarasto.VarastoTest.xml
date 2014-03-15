@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="0.006" errors="0" skipped="0" tests="7" name="ohtu.ohtuvarasto.VarastoTest">
+<testsuite failures="0" time="0.004" errors="0" skipped="0" tests="7" name="ohtu.ohtuvarasto.VarastoTest">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="c:\Program Files\Java\jdk1.7.0_40\jre\bin"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="Service Pack 1"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="c:\Users\nargiza\.ssh\ohtu-viikko1-2014\OhtuVarasto"/>
+    <property name="user.dir" value="c:\Users\nargiza\documents\CS\ohtu-viikko1-2014\OhtuVarasto"/>
     <property name="java.runtime.version" value="1.7.0_40-b43"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="c:\Program Files\Java\jdk1.7.0_40\jre\lib\endorsed"/>
@@ -63,11 +63,11 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase time="0.005" classname="ohtu.ohtuvarasto.VarastoTest" name="uudellaVarastollaOikeaTilavuus"/>
+  <testcase time="0.003" classname="ohtu.ohtuvarasto.VarastoTest" name="konstruktoriLuoTyhjanVaraston"/>
+  <testcase time="0" classname="ohtu.ohtuvarasto.VarastoTest" name="lisaysLisaaSaldoa"/>
+  <testcase time="0.001" classname="ohtu.ohtuvarasto.VarastoTest" name="ottaminenLisääTilaa"/>
+  <testcase time="0" classname="ohtu.ohtuvarasto.VarastoTest" name="konstr"/>
+  <testcase time="0" classname="ohtu.ohtuvarasto.VarastoTest" name="uudellaVarastollaOikeaTilavuus"/>
   <testcase time="0" classname="ohtu.ohtuvarasto.VarastoTest" name="lisaysLisaaPienentaaVapaataTilaa"/>
   <testcase time="0" classname="ohtu.ohtuvarasto.VarastoTest" name="ottaminenPalauttaaOikeanMaaran"/>
-  <testcase time="0.001" classname="ohtu.ohtuvarasto.VarastoTest" name="konstr"/>
-  <testcase time="0" classname="ohtu.ohtuvarasto.VarastoTest" name="konstruktoriLuoTyhjanVaraston"/>
-  <testcase time="0" classname="ohtu.ohtuvarasto.VarastoTest" name="lisaysLisaaSaldoa"/>
-  <testcase time="0" classname="ohtu.ohtuvarasto.VarastoTest" name="ottaminenLisääTilaa"/>
 </testsuite>
